@@ -1,0 +1,96 @@
+@font-face {
+  font-family: Biko;
+  font-style: normal;
+  font-weight: normal;
+  src: local("Biko"), url("assets/fonts/Biko_Regular.otf") format("opentype");
+}
+
+@font-face {
+  font-family: Biko;
+  font-style: normal;
+  font-weight: bold;
+  src: local("Biko"), url("assets/fonts/Biko_Bold.otf") format("opentype");
+}
+
+:root {
+  --main-color: rgb(235, 236, 230);
+	--header-color: rgb(19, 23, 22);
+  --footer-color: var(--header-color);
+	--green-lighter: rgb(105, 198, 191);
+	--green-medium: rgb(43, 155, 148);
+	--green-darker: rgb(26, 74, 71);
+  --font-color-lighter: var(--green-lighter);
+  --font-color-darker: var(--green-darker);
+}
+/* Zerando os parametros do browser */
+  /* Zerando todos os parâmetros */
+    * {
+      margin: 0; padding: 0;
+      text-transform: none;
+      text-decoration: none;
+      box-sizing: border-box;
+      font-family: sans-serif;
+      font-weight: normal;
+      border: none; outline: none;
+      transition: none; transition-delay: 0s;
+    }
+  /* Fim */
+  /* Definindo fontes para usar REM e o SnapIn no eixo Y */
+    html {
+      font-size: 62.5%;
+      overflow-x: hidden;
+      scroll-behavior: smooth;
+      scroll-snap-type: y proximity;
+    }
+  /* Fim */
+  /* Ocultando as barras de rolagem */
+    html::-webkit-scrollbar {
+      display: none;
+    }
+  /* Fim */
+/* Fim */
+
+body {
+  font-family: 'Biko', sans-serif;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.cabecalho {
+  background: var(--header-color);
+  color: var(--font-color-lighter);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head {
+  max-width: 1200px;
+  width: 1200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.head img {
+  -webkit-filter: drop-shadow(3px 3px 5px rgb(43, 155, 148, 0.4));
+  filter: drop-shadow(3px 3px 5px rgb(43, 155, 148, 0.4));
+}
+
+.head span {
+  font-size: 7rem;
+  text-shadow: 3px 3px 5px rgb(43, 155, 148, 0.4);
+}
+
+.conteudo {
+  background: var(--main-color);
+  color: var(--font-color-darker);
+  font-size: 1.8rem;
+  height: 100%;
+}
+
+.rodape {
+  background: var(--footer-color);
+  color: var(--font-color-lighter);
+  font-size: 1.6rem;
+}
