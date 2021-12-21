@@ -1,0 +1,19 @@
+{
+  "name": "stockonline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calbertofilho/stockonline.git"
+  },
+  "author": "Carlos Alberto Filho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calbertofilho/stockonline/issues"
+  },
+  "homepage": "https://github.com/calbertofilho/stockonline#readme"
+}
