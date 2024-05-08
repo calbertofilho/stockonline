@@ -160,6 +160,9 @@ html {
   border: 1px solid var(--header-color);
   border-radius: 15px;
   -moz-border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media only screen and (max-width: 450px) {
