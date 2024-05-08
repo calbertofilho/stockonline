@@ -87,11 +87,11 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 15px;
+  margin: 15px 0; /* Padding superior e inferior de 15px. Padding esquerda e direita de 0 */ 
 }
 
 .box-aviso {
-  padding: 20px;
+  padding: 10px 25px; /* Padding superior e inferior de 10px. Padding esquerda e direita de 25px */
   max-width: 550px;
   max-height: 65px;
   background: #fff;
