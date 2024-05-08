@@ -82,7 +82,7 @@ html {
 
 .logo {
   max-width: 171px;   /* Máximo da largura da imagem */
-  width: 105;
+  width: 10%;
   max-height: 171px;  /* Máximo da altura da imagem */
   height: auto;
   background-image: url("../assets/images/logo-redondo.png");
