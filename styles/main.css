@@ -72,6 +72,12 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;  
+
+  /* Center page's items */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .box-aviso {
