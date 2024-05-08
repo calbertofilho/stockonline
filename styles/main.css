@@ -88,7 +88,8 @@ html {
   background-image: url("../assets/images/logo-redondo.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;  
+  background-size: cover;
+  margin-bottom: 15px;
   /* background-size:100%; */  
 }
 
