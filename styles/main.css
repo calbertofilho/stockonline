@@ -126,7 +126,7 @@ html {
   font-size: 1.6rem;
 }
 
-.box-aviso .bold-text {
+.box-aviso span .bold-text {
   font-weight: bold;
   padding: 0;
   margin: 0;
