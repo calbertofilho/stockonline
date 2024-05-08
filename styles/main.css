@@ -153,7 +153,8 @@ html {
 }
 
 .button1, .button2, .button3 {
-  margin: 0px 15px;
+  margin: 0px 5px;
+  padding: 5px 15px;
   background: var(--green-darker);
   border: 2px solid var(--header-color);
   border-radius: 5px;
