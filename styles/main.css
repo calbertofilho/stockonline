@@ -16,14 +16,14 @@
   font-family: HelveticaNeue;
   font-style: normal;
   font-weight: normal;
-  src: local("HelveticaNeue"), url("assets/fonts/HelveticaNeue.otf") format("opentype");
+  src: local("HelveticaNeue"), url("assets/fonts/HelveticaNeue.ttf") format("opentype");
 }
 
 @font-face {
   font-family: HelveticaNeue;
   font-style: normal;
   font-weight: bold;
-  src: local("HelveticaNeue"), url("assets/fonts/HelveticaNeueBold.otf") format("opentype");
+  src: local("HelveticaNeue"), url("assets/fonts/HelveticaNeueBold.ttf") format("opentype");
 }
 
 :root {
