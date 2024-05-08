@@ -63,7 +63,7 @@ html {
 
 .bg {
   /* The image used */
-  background-image: url("assets/images/bg.jpg");
+  background-image: url("../assets/images/bg.jpg");
 
   /* Full height */
   height: 100%;
