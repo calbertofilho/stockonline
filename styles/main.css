@@ -81,19 +81,20 @@ html {
 }
 
 .logo {
-  max-width: 171px;   /* Máximo da largura da imagem */
-  max-height: 171px;  /* Máximo da altura da imagem */
+  width: 171px;   /* Máximo da largura da imagem */
+  height: 171px;  /* Máximo da altura da imagem */
   background-image: url("../assets/images/logo-redondo.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin: 15px;
 }
 
 .box-aviso {
+  padding-left: 10px;
+  padding-right: 10px;
   max-width: 550px;
-  width: 550px;
   max-height: 65px;
-  height: 65px;
   background: #fff;
   border: 2px solid #000;
   border-radius: 15px;
