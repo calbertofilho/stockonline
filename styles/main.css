@@ -12,6 +12,20 @@
   src: local("Biko"), url("assets/fonts/Biko_Bold.otf") format("opentype");
 }
 
+@font-face {
+  font-family: HelveticaNeue;
+  font-style: normal;
+  font-weight: normal;
+  src: local("HelveticaNeue"), url("assets/fonts/HelveticaNeue.otf") format("opentype");
+}
+
+@font-face {
+  font-family: HelveticaNeue;
+  font-style: normal;
+  font-weight: bold;
+  src: local("HelveticaNeue"), url("assets/fonts/HelveticaNeueBold.otf") format("opentype");
+}
+
 :root {
   --main-color: rgb(235, 236, 230);
 	--header-color: rgb(19, 23, 22);
@@ -107,7 +121,7 @@ html {
   justify-content: center;
   align-items: center;
 
-  font-family: 'Biko', sans-serif;
+  font-family: 'HelveticaNeue', sans-serif;
   color: var(--font-color-darker);
   font-size: 1.6rem;
 }
