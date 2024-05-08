@@ -82,14 +82,15 @@ html {
 
 .box-aviso {
   /* background-image: url("../assets/images/aviso.png"); */
-  width: 500px;
-  height: 60px;
+  width: 600px;
+  height: 70px;
   background: #fff;
   border: 2px solid #000;
   border-radius: 15px;
   -moz-border-radius: 15px;
 
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 
