@@ -126,6 +126,12 @@ html {
   font-size: 1.6rem;
 }
 
+.box-aviso .bold-text {
+  font-weight: bold;
+  padding: 0;
+  margin: 0;
+}
+
 .cabecalho {
   background: var(--header-color);
   color: var(--font-color-lighter);
