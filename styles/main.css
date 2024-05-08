@@ -91,7 +91,7 @@ html {
 }
 
 .box-aviso {
-  padding: 10px 25px; /* Padding superior e inferior de 10px. Padding esquerda e direita de 25px */
+  padding: 15px 30px; /* Padding superior e inferior de 15px. Padding esquerda e direita de 30px */
   max-width: 550px;
   max-height: 150px;
   background: #fff;
