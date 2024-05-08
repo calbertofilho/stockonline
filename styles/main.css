@@ -152,7 +152,7 @@ html {
   font-size: 1.6rem;
 }
 
-.buttons1, .buttons2, .buttons3 {
+.button1, .button2, .button3 {
   margin: 0px 15px;
   background: var(--green-darker);
   border: 2px solid var(--header-color);
