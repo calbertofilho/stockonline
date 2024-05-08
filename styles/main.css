@@ -157,8 +157,8 @@ html {
   padding: 10px 30px;
   background: var(--green-darker);
   border: 2px solid var(--header-color);
-  border-radius: 5px;
-  -moz-border-radius: 5px;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
 }
 
 .cabecalho {
