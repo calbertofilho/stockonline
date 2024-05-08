@@ -87,6 +87,10 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background: #fff;
+  border: 2px solid var(--font-color-darker);
+  border-radius: 50%;
+  -moz-border-radius: 50%;
   margin: 15px 0; /* Padding superior e inferior de 15px. Padding esquerda e direita de 0 */ 
 }
 
