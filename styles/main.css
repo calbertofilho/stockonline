@@ -139,7 +139,7 @@ html {
 .buttons {
   max-width: 550px;
   max-height: 150px;
-  background: #fff0;
+  background: #fff;
   border: 2px solid var(--font-color-darker);
   border-radius: 15px;
   -moz-border-radius: 15px;
