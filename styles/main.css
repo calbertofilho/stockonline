@@ -170,6 +170,15 @@ html {
   box-shadow: 10px 10px 20px var(--header-color); 
 } 
 
+a:link, a:visited, a:hover, a:active {
+  color: var(--main-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 @media only screen and (max-width: 450px) {
   .buttons {
     flex-direction: column;
