@@ -127,9 +127,12 @@ html {
 }
 
 .box-aviso p {
-  font-weight: bold;
   padding: 0px;
   margin: 0px;
+}
+
+.box-aviso p .text-bold {
+  font-weight: bold;
 }
 
 .cabecalho {
