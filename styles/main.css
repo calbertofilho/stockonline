@@ -126,10 +126,10 @@ html {
   font-size: 1.6rem;
 }
 
-.box-aviso span {
+.box-aviso p {
   font-weight: bold;
-  padding: 0;
-  margin: 0;
+  padding: 0px;
+  margin: 0px;
 }
 
 .cabecalho {
