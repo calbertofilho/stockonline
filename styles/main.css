@@ -152,6 +152,12 @@ html {
   font-size: 1.6rem;
 }
 
+@media only screen and (max-width: 450px) {
+  .buttons {
+    flex-direction: column;
+  }
+}
+
 .button1, .button2, .button3 {
   margin: 0px 5px;
   padding: 10px 30px;
