@@ -74,6 +74,13 @@ html {
   background-size: cover;  
 }
 
+.box-aviso {
+  background-image: url("../assets/images/aviso.pgg");
+  width: 768px;
+  height: 87px;
+  background: #fff0;
+}
+
 .cabecalho {
   background: var(--header-color);
   color: var(--font-color-lighter);
