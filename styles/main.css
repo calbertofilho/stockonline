@@ -87,11 +87,11 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 30px;
 }
 
 .box-aviso {
   max-width: 550px;
+  width: 550px;
   max-height: 65px;
   height: 65px;
   background: #fff;
