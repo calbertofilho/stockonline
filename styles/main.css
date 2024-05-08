@@ -75,10 +75,10 @@ html {
 }
 
 .box-aviso {
-  background-image: url("../assets/images/aviso.pgg");
+  /* background-image: url("../assets/images/aviso.pgg"); */
   width: 768px;
   height: 87px;
-  background: #fff;
+  background: #fff0;
 }
 
 .cabecalho {
