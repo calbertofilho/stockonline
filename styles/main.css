@@ -112,8 +112,8 @@ html {
   padding: 15px 30px; /* Padding superior e inferior de 15px. Padding esquerda e direita de 30px */
   max-width: 550px;
   max-height: 150px;
-  background: #fff;
-  border: 2px solid var(--font-color-darker);
+  background: var(--main-color);
+  border: 2px solid var(--green-darker);
   border-radius: 15px;
   -moz-border-radius: 15px;
 
@@ -141,7 +141,6 @@ html {
   margin: 0px 5px;
   max-width: 550px;
   max-height: 150px;
-  border: 2px solid var(--font-color-darker);
 
   display: flex;
   flex-direction: row;
@@ -149,8 +148,14 @@ html {
   align-items: center;
 
   font-family: 'HelveticaNeue', sans-serif;
-  color: var(--font-color-darker);
+  color: var(--main-color);
   font-size: 1.6rem;
+}
+
+.buttons1, .buttons2, .buttons {
+  margin: 0px 15px;
+  background: var(--green-darker);
+  border: 2px solid var(--header-color);
 }
 
 .cabecalho {
