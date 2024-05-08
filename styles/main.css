@@ -81,13 +81,12 @@ html {
 }
 
 .logo {
-  width: min(20vw, 171px);   /* Máximo da largura da imagem */
-  height: min(20vw, 171px);  /* Máximo da altura da imagem */
+  width: min(50vw, 171px);   /* Máximo da largura da imagem */
+  height: min(50vw, 171px);  /* Máximo da altura da imagem */
   background-image: url("../assets/images/logo-redondo.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-size: min(80vw, 800px), min(20vw, 200px); */
   margin: 15px 0; /* Padding superior e inferior de 15px. Padding esquerda e direita de 0 */ 
 }
 
