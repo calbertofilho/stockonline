@@ -202,7 +202,7 @@ html {
     margin: 5px 0px;
   }
   body {
-    overflow: none;
+    overflow: auto;
   }
 }
 
