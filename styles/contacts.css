@@ -194,12 +194,15 @@ html {
   text-decoration: underline;
 }
 
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 550px) {
   .buttons {
     flex-direction: column;
   }
   .button {
     margin: 5px 0px;
+  }
+  body {
+    overflow: none;
   }
 }
 
