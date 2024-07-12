@@ -202,12 +202,19 @@ html {
     margin: 5px 0px;
   }
   .button1 {
+    width: 200px;
     min-width: 135px;
-    width: 135px;
+    margin: 5px 0px;
   }
   body {
     height: 100%;
     overflow: auto;
+  }
+  .bg {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;  
   }
 }
 
