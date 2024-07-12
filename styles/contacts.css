@@ -201,8 +201,16 @@ html {
   .button {
     margin: 5px 0px;
   }
+  .button1 {
+    min-width: 135px;
+  }
   body {
     overflow: auto;
+  }
+  .bg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;    
   }
 }
 
