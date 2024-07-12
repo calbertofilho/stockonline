@@ -195,6 +195,16 @@ html {
 }
 
 @media only screen and (max-width: 550px) {
+  html {
+    scroll-behavior: auto;
+    scroll-snap-type: none;
+  }
+  body {
+    overflow: auto;
+  }
+  .bg {
+    height: 125%;
+  }
   .buttons {
     flex-direction: column;
   }
@@ -205,12 +215,6 @@ html {
     width: 200px;
     min-width: 135px;
     margin: 5px 0px;
-  }
-  body {
-    overflow: auto;
-  }
-  .bg {
-    height: 125%;
   }
 }
 
