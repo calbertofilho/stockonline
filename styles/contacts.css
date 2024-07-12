@@ -154,12 +154,10 @@ html {
   font-size: 1.6rem;
 }
 
-.button {
+.button, .button1 {
   margin: 0px 5px 5px 5px; /* top | right | bottom | left */
   padding: 7px 30px; /* top - bottom | left - right */
   width: 300px;
-  background: var(--green-lighter);
-  border: 1px solid var(--green-darker);
   border-radius: 15px;
   -moz-border-radius: 15px;
   display: flex;
@@ -168,12 +166,27 @@ html {
   box-shadow: 3px 3px 6px var(--header-color); 
 }
 
-.button:hover { 
+.button {
+  background: var(--green-lighter);
+  border: 1px solid var(--green-darker);
+}
+
+.button1 {
+  background: var(--green-darker);
+  border: 1px solid var(--header-color);
+}
+
+.button:hover, .button1:hover { 
   box-shadow: 10px 10px 20px var(--header-color); 
 } 
 
-a:link, a:visited, a:hover, a:active {
+.button a:link, .button a:visited, .button a:hover, .button a:active {
   color: var(--font-color-darker);
+  text-decoration: none;
+}
+
+.button1 a:link, .button1 a:visited, .button1 a:hover, .button1 a:active {
+  color: var(--main-color);
   text-decoration: none;
 }
 
