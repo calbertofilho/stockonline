@@ -139,7 +139,7 @@ html {
 }
 
 .buttons {
-  padding: 5px 10px; /* Padding superior e inferior de 5px. Padding esquerda e direita de 10px */
+  padding: 2px 10px; /* Padding superior e inferior de 5px. Padding esquerda e direita de 10px */
   margin: 0px 5px;
   max-width: 550px;
   max-height: 150px;
@@ -155,8 +155,8 @@ html {
 }
 
 .button {
-  margin: 0px 5px 8px 5px; /* top | right | bottom | left */
-  padding: 8px 30px; /* top - bottom | left - right */
+  margin: 0px 5px 5px 5px; /* top | right | bottom | left */
+  padding: 7px 30px; /* top - bottom | left - right */
   width: 300px;
   background: var(--green-darker);
   border: 1px solid var(--header-color);
