@@ -190,7 +190,7 @@ html {
   text-decoration: none;
 }
 
-a:hover {
+.button a:hover, .button1 a:hover {
   text-decoration: underline;
 }
 
