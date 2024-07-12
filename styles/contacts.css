@@ -95,8 +95,8 @@ html {
 }
 
 .logo {
-  max-width: min(70vw, 171px);   /* Máximo da largura da imagem */
-  max-height: min(70vw, 171px);  /* Máximo da altura da imagem */
+  min-width: min(70vw, 171px);   /* Máximo da largura da imagem */
+  min-height: min(70vw, 171px);  /* Máximo da altura da imagem */
   background-image: url("../assets/images/logo-redondo.png");
   background-position: center;
   background-repeat: no-repeat;
