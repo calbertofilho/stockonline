@@ -207,14 +207,10 @@ html {
     margin: 5px 0px;
   }
   body {
-    height: 100%;
     overflow: auto;
   }
   .bg {
-    height: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;  
+    height: 125%;
   }
 }
 
