@@ -205,12 +205,9 @@ html {
     min-width: 135px;
   }
   body {
+    height: 100%;
+    min-height: 100vh;
     overflow: auto;
-  }
-  .bg {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;    
   }
 }
 
